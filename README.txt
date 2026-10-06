@@ -1,4 +1,4 @@
-Distritec Desempeño V3.4 — Demo Gerencial
+Distritec Desempeño V3.5 — Demo Gerencial
 
 Estructura preparada para publicación estática (GitHub Pages / hosting web):
 - index.html
@@ -24,4 +24,7 @@ V3.3 - Origen de ventas
 - Registros anteriores sin origen siguen siendo compatibles.
 
 
-V3.4: un reporte por asesor/fecha/oficina (actualizable), formulario reiniciado tras guardar y trazabilidad numérica de pendientes: inicio, gestionados, ventas recuperadas y cierre.
+V3.5: un reporte por asesor/fecha/oficina (actualizable), formulario reiniciado tras guardar y trazabilidad numérica de pendientes: inicio, gestionados, ventas recuperadas y cierre.
+
+
+V3.5: Se agrega la sede Redes Pereira 1 con Jade Zapata y Edwar López. El login filtra asesores según la sede seleccionada.
