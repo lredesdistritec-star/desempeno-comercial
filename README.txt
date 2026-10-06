@@ -1,4 +1,4 @@
-Distritec Desempeño V3.2 — Demo Gerencial
+Distritec Desempeño V3.4 — Demo Gerencial
 
 Estructura preparada para publicación estática (GitHub Pages / hosting web):
 - index.html
@@ -15,3 +15,13 @@ Usuario: Admin
 Contraseña: Distritec2026@
 
 Nota: sigue siendo una demo frontend. Las credenciales están en JavaScript y no sustituyen autenticación de backend.
+
+V3.3 - Origen de ventas
+- Se agrega desglose de ventas cerradas por: Referido, Soft-IA, HubSpot, ManyChat, Recompra, Orgánica y Otro.
+- La suma de orígenes debe coincidir con el total de ventas cerradas antes de guardar.
+- Dashboard agrega visual de cantidad y participación por origen.
+- No se asigna valor vendido por origen: el reporte diario solo registra valor total del día.
+- Registros anteriores sin origen siguen siendo compatibles.
+
+
+V3.4: un reporte por asesor/fecha/oficina (actualizable), formulario reiniciado tras guardar y trazabilidad numérica de pendientes: inicio, gestionados, ventas recuperadas y cierre.
