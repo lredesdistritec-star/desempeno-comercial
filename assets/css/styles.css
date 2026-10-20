@@ -2,3 +2,26 @@
 .dashboard-controls{display:flex;gap:9px;flex-wrap:wrap;align-items:center}.dashboard-controls select{border:1px solid var(--line);border-radius:10px;padding:9px;background:#fff}.delta{font-size:11px;margin-top:5px;font-weight:700}.delta.up{color:#3d7d00}.delta.down{color:#b34444}.delta.flat{color:var(--muted)}.mini-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.metricbox{border:1px solid var(--line);border-radius:13px;padding:14px}.metricbox b{display:block;font-size:22px;margin-top:5px}.metricbox small{color:var(--muted)}.executive-note{font-size:13px;line-height:1.5;color:#424844}.tag{display:inline-block;padding:5px 8px;border-radius:999px;background:#f0f3f1;font-size:11px;margin:3px}.report-head{display:none}.diagnosis{border-left:4px solid var(--g);padding:10px 12px;background:#f8faf8;border-radius:8px;margin:8px 0;font-size:13px}@media print{#dashboard.print-dashboard{display:block!important}.print-dashboard .no-print{display:none!important}.print-dashboard .report-head{display:block!important;margin-bottom:16px}.print-dashboard .grid{grid-template-columns:repeat(4,1fr)}.print-dashboard .two{grid-template-columns:1fr 1fr}.print-dashboard .section{break-inside:avoid}.print-dashboard .kpi .num{font-size:20pt}.print-dashboard .card{border:1px solid #ddd;padding:10px}.print-dashboard .bars .row{margin:7px 0}}@media(max-width:700px){.mini-grid{grid-template-columns:1fr}}
 
 .sales-origins{border:1px solid var(--line);border-radius:14px;padding:16px;background:#fafcf9}.origin-head{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:12px}.origin-head small{display:block;color:var(--muted);margin-top:4px}.origin-total{text-align:right;min-width:90px}.origin-total span{display:block;font-size:11px;color:var(--muted);text-transform:uppercase}.origin-total b{font-size:18px}.origin-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.origin-validation{font-size:12px;margin-top:8px;color:var(--muted)}.origin-validation.ok{color:#3d7d00}.origin-validation.bad{color:#b34444}@media(max-width:800px){.origin-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.origin-grid{grid-template-columns:1fr}.origin-head{align-items:flex-start}.origin-total{min-width:auto}}
+
+/* V3.5 ajustes conservados */
+body.admin-readonly .nav button[data-view="form"]{display:none!important}
+
+/* V3.5 ajustes conservados */
+
+/* Presentación exclusiva del módulo de importación; no modifica otras pantallas. */
+#import .importbox-clean{display:block;text-align:center;padding:32px 22px;overflow:hidden}
+#import .import-inner{max-width:520px;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:13px}
+#import .import-icon{width:52px;height:52px;display:flex;align-items:center;justify-content:center;border-radius:14px;background:#edffd3;color:#294a00;font-size:30px;font-weight:700}
+#import .import-inner h2{margin:0;font-size:20px}
+#import .import-description{margin:0;color:#66716b;line-height:1.5;max-width:440px}
+#import .import-file{width:100%;max-width:420px;box-sizing:border-box;border:1px dashed #a6b6aa;background:#f7faf8;border-radius:12px;padding:14px;text-align:center}
+#import .import-file input{display:block;box-sizing:border-box;max-width:100%;width:100%;font:inherit}
+#import .import-inner>.btn{display:inline-flex;align-items:center;justify-content:center;min-width:170px;margin:2px auto 0}
+#import .import-footnote{margin:0;color:#77827c;font-size:12px;line-height:1.5}
+@media(max-width:600px){#import .importbox-clean{padding:24px 12px}#import .import-inner{gap:12px}#import .import-file{padding:12px 8px}}
+
+
+/* V3.6: comparativo de asesores legible con nombres completos */
+.advisor-bars .row{grid-template-columns:minmax(120px,155px) minmax(90px,1fr) 52px}
+.advisor-bars .row span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media(max-width:650px){.advisor-bars .row{grid-template-columns:100px minmax(45px,1fr) 38px;gap:7px;font-size:11px}}
