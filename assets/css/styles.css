@@ -21,7 +21,8 @@ body.admin-readonly .nav button[data-view="form"]{display:none!important}
 @media(max-width:600px){#import .importbox-clean{padding:24px 12px}#import .import-inner{gap:12px}#import .import-file{padding:12px 8px}}
 
 
-/* V3.6: comparativo de asesores legible con nombres completos */
+/* V3.6: comparativo legible */
+
 .advisor-bars .row{grid-template-columns:minmax(120px,155px) minmax(90px,1fr) 52px}
 .advisor-bars .row span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 @media(max-width:650px){.advisor-bars .row{grid-template-columns:100px minmax(45px,1fr) 38px;gap:7px;font-size:11px}}
