@@ -1,7 +1,7 @@
 /* Distritec V3.6. Datos comerciales en KEY original; metas en clave independiente.
    No reemplaza ni migra los registros originales. */
 (()=>{'use strict';
-const GKEY='distritec-gerencia-simulada-v3.6-metas';
+const GKEY='distritec-performance-goals-v3.6';
 const el=id=>document.getElementById(id), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const num=x=>Number(x)||0;
 const money=x=>'$'+Math.round(num(x)).toLocaleString('es-CO');
